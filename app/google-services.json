@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "15749159059",
+    "firebase_url": "https://the-blog-da71b.firebaseio.com",
+    "project_id": "the-blog-da71b",
+    "storage_bucket": "the-blog-da71b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15749159059:android:0ad3bab7195ac076",
+        "android_client_info": {
+          "package_name": "com.example.aki.theblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15749159059-a3gep4ugl73a6kmj84c6cjuvfmsfmkjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkO4VD4Kqfegi2nhrLmzst5dVYqxQUC7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
