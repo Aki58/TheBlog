@@ -160,12 +160,14 @@ private RecyclerView rv;
          mdatabasel.addValueEventListener(new ValueEventListener() {
              @Override
              public void onDataChange(DataSnapshot dataSnapshot) {
-                if (dataSnapshot.child(post_key).hasChild(mAuth.getCurrentUser().getUid()))
+                 if (mAuth.getCurrentUser()!=null)
+                 { String uid=mAuth.getCurrentUser().getUid();
+                     if (dataSnapshot.child(post_key).hasChild(uid))
                 {
                     likebtn.setImageResource(R.mipmap.ic_done_black_24dp);
                 }else{
                     likebtn.setImageResource(R.mipmap.ic_thumb_up_black_24dp);
-                }
+                }}
              }
 
              @Override
